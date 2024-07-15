@@ -1,4 +1,4 @@
-package DesignPatterns.creational.Factory;
+package DesignPatterns.creational.Factory.DishExp;
 
 public class Sushi implements Dish{
     @Override

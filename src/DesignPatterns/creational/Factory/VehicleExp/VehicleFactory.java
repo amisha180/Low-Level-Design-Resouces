@@ -1,2 +1,13 @@
-package DesignPatterns.creational.Factory.VehicleExp;public interface VehicleFactory {
+package DesignPatterns.creational.Factory.VehicleExp;
+
+public class VehicleFactory {
+    public Vehicles deliverVehicle(String type){
+        if(type.equalsIgnoreCase("Car")){
+            return new Car();
+        }
+        else if(type.equalsIgnoreCase("Bike")){
+            return new Bike();
+        }
+        return null;
+    }
 }

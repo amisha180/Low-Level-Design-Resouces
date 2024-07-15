@@ -1,19 +1,17 @@
-package DesignPatterns.creational.Factory;
+package DesignPatterns.creational.Factory.DishExp;
 
 public class FoodCourt {
     public static void main(String[] args) {
-        DishFactory pizzafactory = new PizzaFactory();
-        Dish p = pizzafactory.deliverDish();
-        p.prepare();
-        p.pickedup();
-        p.delivered();
+        DishFactory factory = new DishFactory();
+        Dish pizza = factory.getDish("Pizza");
+        pizza.prepare();
+        pizza.pickedup();
+        pizza.delivered();
 
-        System.out.println();
+        Dish sushi = factory.getDish("sushi");
+        sushi.prepare();
+        sushi.pickedup();
+        sushi.delivered();
 
-        DishFactory sushifactory = new SushiFactory();
-        Dish s = sushifactory.deliverDish();
-        s.prepare();
-        s.pickedup();
-        s.delivered();
     }
 }

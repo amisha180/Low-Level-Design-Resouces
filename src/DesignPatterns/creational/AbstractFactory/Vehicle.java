@@ -1,5 +1,5 @@
 package DesignPatterns.creational.AbstractFactory;
 
-public interface Vehicles {
+public interface Vehicle {
      void drive();
 }

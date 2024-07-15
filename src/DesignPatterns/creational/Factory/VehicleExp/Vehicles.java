@@ -1,2 +1,5 @@
-package DesignPatterns.creational.Factory.VehicleExp;public interface Vehicles {
+package DesignPatterns.creational.Factory.VehicleExp;
+
+public interface Vehicles {
+     void drive();
 }
