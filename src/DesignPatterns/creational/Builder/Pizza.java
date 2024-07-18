@@ -11,7 +11,6 @@ public class Pizza {
     private boolean paneer;
     private boolean olives;
     private boolean capsicum;
-
     private Pizza(Builder builder){
         this.size = builder.size;
         this.crust = builder.crust;
@@ -21,6 +20,32 @@ public class Pizza {
         this.paneer = builder.paneer;
         this.cheese = builder.cheese;
 
+    }
+    public String getCrust() {
+        return crust;
+    }
+    public String getSize() {
+        return size;
+    }
+
+    public boolean isCheese() {
+        return cheese;
+    }
+
+    public boolean isPepperoni() {
+        return pepperoni;
+    }
+
+    public boolean isPaneer() {
+        return paneer;
+    }
+
+    public boolean isOlives() {
+        return olives;
+    }
+
+    public boolean isCapsicum() {
+        return capsicum;
     }
     @Override
     public String toString() {
