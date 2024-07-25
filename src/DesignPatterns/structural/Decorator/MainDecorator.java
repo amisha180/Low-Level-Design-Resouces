@@ -1,6 +1,6 @@
 package DesignPatterns.structural.Decorator;
 
-public class mainDecorator {
+public class MainDecorator {
     public static void main(String[] args) {
         Text text = new PlainText("Hello, world!");
 

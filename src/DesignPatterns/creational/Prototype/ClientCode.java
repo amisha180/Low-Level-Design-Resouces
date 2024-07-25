@@ -1,6 +1,6 @@
 package DesignPatterns.creational.Prototype;
 
-public class clientCode {
+public class ClientCode {
     public static void main(String[] args) {
 
         //WordDoc

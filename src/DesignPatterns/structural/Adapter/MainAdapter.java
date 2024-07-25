@@ -1,6 +1,6 @@
 package DesignPatterns.structural.Adapter;
 
-public class mainAdapter {
+public class MainAdapter {
     public static void main(String[] args) {
         PayPalPayment paypal = new PayPalPaymentImpl();
         paypal.pay(5000);
