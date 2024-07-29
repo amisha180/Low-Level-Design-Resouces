@@ -1,0 +1,12 @@
+Common Design Pattern's in Microservices
+
+API Gateway
+Service Registry
+Circuit Breaker
+Event-Driven
+Database per service
+Command Query Responsibility Segregation (CQRS)
+Externalized Configuration
+Saga Pattern
+Bulkhead Pattern
+Backends for Frontends (BFF)
